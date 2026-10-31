@@ -28,7 +28,11 @@ Build a small word-count tool in this folder: run `node --version`, write `wordc
 
 #### 任务列表
 
-**有 Hook**：任务列表和进度说明都是中文。
+**无 Hook**：任务列表、进度说明和正在执行的命令说明都是英文。
+
+![无 Hook：英文任务列表](docs/images/tasks-off.png)
+
+**有 Hook**：任务列表、进度说明和命令说明都是中文。
 
 ![有 Hook：中文任务列表](docs/images/tasks-on.png)
 
