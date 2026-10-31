@@ -14,45 +14,33 @@ Claude 回复时，Hook 会检查实际输出。发现大段英文时，要求 C
 Build a small word-count tool in this folder: run `node --version`, write `wordcount.mjs` that prints the top 10 words of `sample.txt`, ask me with a question card whether the output should be a table or JSON, write a test with `node --test` (make one assertion fail first, then fix it), and finish with a summary and next steps.
 ```
 
-### 问题卡（Claude Code CLI）
+以下截图来自 Claude 桌面端，Claude Code CLI 中的效果相同。
 
-**无 Hook**
+### 问题卡
 
-![CLI 无 Hook：英文问题卡](docs/images/cli-question-off.png)
+**无 Hook**：问题、选项和任务列表都是英文。
 
-**有 Hook**
+![无 Hook：英文问题卡和任务列表](docs/images/question-off.png)
 
-![CLI 有 Hook：中文问题卡](docs/images/cli-question-on.png)
+**有 Hook**：进度说明和问题卡都是中文。
 
-### 问题卡和任务列表（Claude 桌面端）
+![有 Hook：中文问题卡](docs/images/question-on.png)
 
-**无 Hook**
+### 任务列表
 
-![桌面端无 Hook：英文问题卡和任务列表](docs/images/desktop-question-off.webp)
+**有 Hook**：任务列表和进度说明都是中文。
 
-**有 Hook**
+![有 Hook：中文任务列表](docs/images/tasks-on.png)
 
-![桌面端有 Hook：中文问题卡和任务列表](docs/images/desktop-question-on.webp)
+### 最终总结
 
-### 最终总结（Claude Code CLI）
+**无 Hook**：读完英文的命令输出和测试报错后，总结是英文。
 
-**无 Hook**
+![无 Hook：英文总结](docs/images/summary-off.png)
 
-![CLI 无 Hook：英文总结](docs/images/cli-summary-off.png)
+**有 Hook**：总结是中文，代码、命令和文件名保留原文。
 
-**有 Hook**
-
-![CLI 有 Hook：中文总结](docs/images/cli-summary-on.png)
-
-### 最终总结（Claude 桌面端）
-
-**无 Hook**
-
-![桌面端无 Hook：英文总结](docs/images/desktop-summary-off.webp)
-
-**有 Hook**
-
-![桌面端有 Hook：中文总结](docs/images/desktop-summary-on.webp)
+![有 Hook：中文总结](docs/images/summary-on.png)
 
 ---
 
