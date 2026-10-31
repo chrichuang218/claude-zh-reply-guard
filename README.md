@@ -16,27 +16,43 @@ Build a small word-count tool in this folder: run `node --version`, write `wordc
 
 ### 问题卡（Claude Code CLI）
 
-| 无 Hook | 有 Hook |
-|---|---|
-| ![CLI 无 Hook：英文问题卡](docs/images/cli-question-off.png) | ![CLI 有 Hook：中文问题卡](docs/images/cli-question-on.png) |
+**无 Hook**
+
+![CLI 无 Hook：英文问题卡](docs/images/cli-question-off.png)
+
+**有 Hook**
+
+![CLI 有 Hook：中文问题卡](docs/images/cli-question-on.png)
 
 ### 问题卡和任务列表（Claude 桌面端）
 
-| 无 Hook | 有 Hook |
-|---|---|
-| ![桌面端无 Hook：英文问题卡和任务列表](docs/images/desktop-question-off.webp) | ![桌面端有 Hook：中文问题卡和任务列表](docs/images/desktop-question-on.webp) |
+**无 Hook**
+
+![桌面端无 Hook：英文问题卡和任务列表](docs/images/desktop-question-off.webp)
+
+**有 Hook**
+
+![桌面端有 Hook：中文问题卡和任务列表](docs/images/desktop-question-on.webp)
 
 ### 最终总结（Claude Code CLI）
 
-| 无 Hook | 有 Hook |
-|---|---|
-| ![CLI 无 Hook：英文总结](docs/images/cli-summary-off.png) | ![CLI 有 Hook：中文总结](docs/images/cli-summary-on.png) |
+**无 Hook**
+
+![CLI 无 Hook：英文总结](docs/images/cli-summary-off.png)
+
+**有 Hook**
+
+![CLI 有 Hook：中文总结](docs/images/cli-summary-on.png)
 
 ### 最终总结（Claude 桌面端）
 
-| 无 Hook | 有 Hook |
-|---|---|
-| ![桌面端无 Hook：英文总结](docs/images/desktop-summary-off.webp) | ![桌面端有 Hook：中文总结](docs/images/desktop-summary-on.webp) |
+**无 Hook**
+
+![桌面端无 Hook：英文总结](docs/images/desktop-summary-off.webp)
+
+**有 Hook**
+
+![桌面端有 Hook：中文总结](docs/images/desktop-summary-on.webp)
 
 ---
 
