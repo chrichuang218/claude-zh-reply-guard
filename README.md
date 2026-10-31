@@ -84,14 +84,14 @@ Build a small word-count tool in this folder: run `node --version`, write `wordc
 不修改你的 `settings.json`，卸载也干净。在终端运行：
 
 ```bash
-claude plugin marketplace add chrichuang218/zh-reply-guard
+claude plugin marketplace add chrichuang218/claude-zh-reply-guard
 ```
 
 ```bash
 claude plugin install zh-reply-guard@zh-reply-guard --scope user
 ```
 
-也可以在 Claude Code 会话里输入 `/plugin marketplace add chrichuang218/zh-reply-guard`，再用 `/plugin` 安装，作用范围选 User。
+也可以在 Claude Code 会话里输入 `/plugin marketplace add chrichuang218/claude-zh-reply-guard`，再用 `/plugin` 安装，作用范围选 User。
 
 装好后**新开一个会话**才会生效。
 
