@@ -266,6 +266,8 @@ node --test
 
 设计参考了 [claude-code-japanese-guard](https://github.com/minorun365/claude-code-japanese-guard)（Apache-2.0），包括同时用 `last_assistant_message` 和会话记录判定、一行前置说明不拦、桌面端 wrap_up 的匹配写法、只要求重写英文段落的反馈方式，以及 `--check` 命令。本项目用 Node.js 重新实现，没有复制它的代码。
 
+🙏 感谢 [LINUX DO](https://linux.do) 社区的支持与讨论。
+
 ## 许可
 
 [MIT](LICENSE)
