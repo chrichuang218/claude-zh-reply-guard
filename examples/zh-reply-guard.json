@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "stopMode": "block",
+  "checkProgress": true,
+  "checkThinkingUpdates": true,
+  "injectRules": true,
+  "waitSeconds": 3,
+  "maxToolDenies": 1,
+  "debug": false,
+  "reply": { "minSentenceWords": 6, "minEnglishWords": 12, "minEnglishRatio": 0.5 },
+  "progress": { "minSentenceWords": 6, "minEnglishWords": 12, "minEnglishRatio": 0.5 },
+  "progressSingleLine": { "minSentenceWords": 6, "minEnglishWords": 50, "minEnglishRatio": 0.5 },
+  "tool": { "minSentenceWords": 4, "minEnglishWords": 8, "minEnglishRatio": 0.5 },
+  "tools": ["AskUserQuestion", "TodoWrite", "TaskCreate", "TaskUpdate", "mcp__.*__wrap_up", "mcp__.*__update_plan"]
+}

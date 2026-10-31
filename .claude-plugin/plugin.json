@@ -1,0 +1,7 @@
+{
+  "name": "zh-reply-guard",
+  "version": "0.1.0",
+  "description": "默认用简体中文回复：检查最终回复、进度播报、问题卡和任务列表，英文时要求 Claude 改用中文；尊重用户指定的语言，零额外模型调用。",
+  "license": "MIT",
+  "keywords": ["chinese", "language", "hooks", "中文"]
+}

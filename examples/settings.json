@@ -1,0 +1,38 @@
+{
+  "language": "简体中文",
+  "env": {
+    "ZH_REPLY_GUARD_DEBUG": "0"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          { "type": "command", "command": "node", "args": ["/absolute/path/to/.claude/hooks/zh-reply-guard.mjs"], "timeout": 10 }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          { "type": "command", "command": "node", "args": ["/absolute/path/to/.claude/hooks/zh-reply-guard.mjs"], "timeout": 10 }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "AskUserQuestion|TodoWrite|TaskCreate|TaskUpdate|mcp__.*__wrap_up|mcp__.*__update_plan",
+        "hooks": [
+          { "type": "command", "command": "node", "args": ["/absolute/path/to/.claude/hooks/zh-reply-guard.mjs"], "timeout": 10 }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "node", "args": ["/absolute/path/to/.claude/hooks/zh-reply-guard.mjs"], "timeout": 30 }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "zh-reply-guard",
+  "owner": { "name": "zh-reply-guard contributors" },
+  "plugins": [
+    {
+      "name": "zh-reply-guard",
+      "source": "./",
+      "description": "默认用简体中文回复的 Claude Code Hook，尊重用户指定的语言，零额外模型调用。"
+    }
+  ]
+}
