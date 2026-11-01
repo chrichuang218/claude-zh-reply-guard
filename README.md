@@ -4,7 +4,7 @@
 
 **默认中文 · 尊重用户语言要求 · 零额外模型调用**
 
-https://github.com/user-attachments/assets/0bd763dd-bcb0-4a06-bb1e-fed9eb4d56fa
+https://github.com/user-attachments/assets/b3632259-0348-44b6-b54c-0397ac8be21d
 
 24 秒演示：同一句英文提示词，左边没装插件，右边装上 zh-reply-guard。
 
