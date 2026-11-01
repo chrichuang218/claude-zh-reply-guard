@@ -4,6 +4,10 @@
 
 **默认中文 · 尊重用户语言要求 · 零额外模型调用**
 
+https://github.com/user-attachments/assets/0bd763dd-bcb0-4a06-bb1e-fed9eb4d56fa
+
+24 秒演示：同一句英文提示词，左边没装插件，右边装上 zh-reply-guard。
+
 ## 它做什么
 
 装上之后，Claude 会按下面的规则输出：
